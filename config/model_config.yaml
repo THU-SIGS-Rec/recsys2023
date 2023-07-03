@@ -1,0 +1,231 @@
+MMoE_sharechat_x1: # checked
+    batch_norm: false
+    batch_size: 2048
+    dataset_id: sharechatx1
+    debug_mode: false
+    early_stop_patience: 2
+    embedding_dim: 1
+    embedding_regularizer: 1.0e-06
+    epochs: 50
+    eval_steps: null
+    expert_hidden_units: [512, 512, 512]
+    feature_config: null
+    feature_specs: null
+    gate_hidden_units: [128, 64]
+    group_id: null
+    hidden_activations: relu
+    learning_rate: 0.001
+    loss: [binary_crossentropy, binary_crossentropy]
+    metrics: [logloss, AUC]
+    model: MMoE
+
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0
+    net_regularizer: 0
+    num_experts: 8
+    num_tasks: 2
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 2023
+    shuffle: true
+    task: [binary_classification, binary_classification]
+    tower_hidden_units: [128, 64]
+    use_features: null
+    verbose: 1
+
+MMoE_sharechat_x2: # checked
+    batch_norm: false
+    batch_size: 2048
+    dataset_id: sharechatx2
+    debug_mode: false
+    early_stop_patience: 2
+    embedding_dim: 1
+    embedding_regularizer: 1.0e-06
+    epochs: 50
+    eval_steps: null
+    expert_hidden_units: [512, 512, 512]
+    feature_config: null
+    feature_specs: null
+    gate_hidden_units: [128, 64]
+    group_id: null
+    hidden_activations: relu
+    learning_rate: 0.001
+    loss: [binary_crossentropy, binary_crossentropy]
+    metrics: [logloss, AUC]
+    model: MMoE
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0
+    net_regularizer: 0
+    num_experts: 8
+    num_tasks: 2
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 2023
+    shuffle: true
+    task: [binary_classification, binary_classification]
+    tower_hidden_units: [128, 64]
+    use_features: null
+    verbose: 1
+
+MMoE_sharechat_x3v1: # checked
+    batch_norm: false
+    batch_size: 2048
+    dataset_id: sharechatx3
+    debug_mode: false
+    early_stop_patience: 4
+    embedding_dim: 40
+    embedding_regularizer: 1.0e-06
+    epochs: 4
+    eval_steps: null
+    expert_hidden_units: [512, 512, 512]
+    feature_config: null
+    feature_specs: null
+    gate_hidden_units: [128, 64]
+    group_id: null
+    hidden_activations: relu
+    learning_rate: 0.001
+    loss: [binary_crossentropy, binary_crossentropy]
+    metrics: [logloss, AUC]
+    model: MMoE
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0
+    net_regularizer: 0
+    num_experts: 8
+    num_tasks: 2
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 2023
+    shuffle: true
+    task: [binary_classification, binary_classification]
+    tower_hidden_units: [128, 64]
+    use_features: null
+    verbose: 1
+
+MMoE_sharechat_x3v2: # check
+    batch_norm: false
+    batch_size: 2048
+    dataset_id: sharechatx3
+    debug_mode: false
+    early_stop_patience: 1
+    embedding_dim: 20
+    embedding_regularizer: 1.0e-06
+    epochs: 1
+    eval_steps: null
+    expert_hidden_units: [512, 512, 512]
+    feature_config: null
+    feature_specs: null
+    gate_hidden_units: [128, 64]
+    group_id: null
+    hidden_activations: relu
+    learning_rate: 0.001
+    loss: [binary_crossentropy, binary_crossentropy]
+    metrics: [logloss, AUC]
+    model: MMoE
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0
+    net_regularizer: 0
+    num_experts: 8
+    num_tasks: 2
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 2023
+    shuffle: true
+    task: [binary_classification, binary_classification]
+    tower_hidden_units: [128, 64]
+    use_features: null
+    verbose: 1
+
+MMoE_sharechat_x3v3: # checked
+    batch_norm: false
+    batch_size: 2048 
+    dataset_id: sharechatx3
+    debug_mode: false
+    early_stop_patience: 2
+    embedding_dim: 32
+    embedding_regularizer: 1.0e-06
+    epochs: 3
+    eval_steps: null
+    expert_hidden_units: [512, 512, 512]
+    feature_config: null
+    feature_specs: null
+    gate_hidden_units: [128, 64]
+    group_id: null
+    hidden_activations: relu
+    learning_rate: 0.001
+    loss: [binary_crossentropy, binary_crossentropy]
+    metrics: [logloss, AUC]
+    model: MMoE_SOFT
+    model_root: ./checkpoints/
+    monitor: {"is_installed_AUC": 1,"is_clicked_AUC": 0.3}
+    monitor_mode: max
+    net_dropout: 0
+    net_regularizer: 0
+    num_experts: 8
+    num_tasks: 2
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 2023
+    shuffle: true
+    task: [binary_classification, binary_classification]
+    tower_hidden_units: [128, 64]
+    use_features: null
+    verbose: 1
+    soft_tau: 100000
+    soft_weight: 0.01
+
+MMoE_sharechat_x3v4: # checked
+    batch_norm: false
+    batch_size: 2048
+    cvr_weight: 1.65
+    dataset_id: sharechatx3
+    debug_mode: false
+    early_stop_patience: 3
+    embedding_dim: 32
+    embedding_regularizer: 1.0e-06
+    epochs: 3
+    eval_steps: null
+    expert_hidden_units: [512, 512, 512]
+    feature_config: null
+    feature_specs: null
+    gate_hidden_units: [128, 64]
+    group_id: null
+    hidden_activations: relu
+    learning_rate: 0.001
+    loss: [binary_crossentropy, binary_crossentropy]
+    metrics: [logloss, AUC]
+    model: MMoE
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0
+    net_regularizer: 0
+    num_experts: 8
+    num_tasks: 2
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 2023
+    shuffle: true
+    task: [binary_classification, binary_classification]
+    tower_hidden_units: [128, 64]
+    use_features: null
+    verbose: 1

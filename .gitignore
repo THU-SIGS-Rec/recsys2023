@@ -1,0 +1,6 @@
+*.model
+*.pyc
+*.pkl
+*.csv
+*.log
+*.h5
