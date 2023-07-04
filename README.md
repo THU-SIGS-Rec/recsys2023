@@ -1,7 +1,7 @@
 
 # RecSys Challenge 2023
 
-This project is a solution of Recsys Challenge 2023 provided by the team ```SSL```. For more details about this challenge, please visit the official website (https://sharechat.com/recsys2023). Our code is based on [FuxiCTR](https://github.com/xue-pai/FuxiCTR) and (BARS)[https://openbenchmark.github.io/]. 
+This project is a solution of Recsys Challenge 2023 provided by the team ```SSL```. For more details about this challenge, please visit the official website (https://sharechat.com/recsys2023). Our code is based on [FuxiCTR](https://github.com/xue-pai/FuxiCTR) and [BARS](https://openbenchmark.github.io/). 
 
 ***Rank***: 2th at Acadamic Leardboard
 
