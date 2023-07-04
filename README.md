@@ -1,7 +1,7 @@
 
 # RecSys Challenge 2023
 
-This project is a solution of Recsys Challenge 2023 provided by the team ```SSL```. For more details about this challenge, please visit the official website (https://sharechat.com/recsys2023). Our code is based on [FuxiCTR](https://github.com/xue-pai/FuxiCTR) and [BARS][https://openbenchmark.github.io/]. 
+This project is a solution of Recsys Challenge 2023 provided by the team ```SSL```. For more details about this challenge, please visit the official website (https://sharechat.com/recsys2023). Our code is based on [FuxiCTR](https://github.com/xue-pai/FuxiCTR) and (BARS)[https://openbenchmark.github.io/]. 
 
 ***Rank***: 2th at Acadamic Leardboard
 
@@ -50,7 +50,7 @@ Download the dataset from the official website and place it in the `data/raw_dat
 ```
 ### Dataset Preprocess 
 ``` 
-bash 1_dataset_preprocess.sh 
+bash step_1_run_preprocess_s1.sh
 ```
 
 ### Model Config & Dataset Config 
@@ -66,7 +66,6 @@ Please refer to 'config/dataset_config.yaml' and 'config/model_config.yaml' for 
 | Model 6 	|   6.21848     |    sharechatx3	|MMoE_sharechat_x3v4|       	|
 
 ### Train Models 
-***Train model***
 ```
 bash step_2_train_models.sh 
 ```
