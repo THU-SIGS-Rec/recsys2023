@@ -1,7 +1,7 @@
 
 # RecSys Challenge 2023
 
-This project is a solution of Recsys Challenge 2023 provided by the team ```SSL```. For more details about this challenge, please visit the official website (https://sharechat.com/recsys2023). Our code is based on [FuxiCTR](https://github.com/xue-pai/FuxiCTR) and [BARS](https://openbenchmark.github.io/). 
+This project is a solution for Recsys Challenge 2023 provided by the team ```SSL```. For more details about this challenge, please refer to our paper [*A Simple yet Strong Approach for Installation Prediction in ShareChat Ads*](https://dl.acm.org/doi/abs/10.1145/3626221.3627289) or visit the official website (https://sharechat.com/recsys2023). Our code is based on [FuxiCTR](https://github.com/xue-pai/FuxiCTR) and [BARS](https://openbenchmark.github.io/). 
 
 ***Rank***: 2th at Acadamic Leardboard
 
@@ -89,4 +89,4 @@ If you find our code helpful in your research, please kindly cite the following 
 
 
 ## Concat 
-If you have any questions, please feel free to reach out to Liangcai Su(sulc21@mails.tsinghua.edu.cn). 
+If you have any questions, please feel free to reach out to Liangcai Su (sulc21@mails.tsinghua.edu.cn) or Xiaoteng Shen (shenxt22@mails.tsinghua.edu.cn). 
