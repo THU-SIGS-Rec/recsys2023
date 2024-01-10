@@ -83,6 +83,8 @@ Final Online Score: 6.159096
 ## Citation 
 If you find our code helpful in your research, please kindly cite the following papers.
 
+> Xiaoteng Shen, Liangcai Su, Zhutian Lin, and Xiao Xi. 2023. [A Simple yet Strong Approach for Installation Prediction in ShareChat Ads](https://dl.acm.org/doi/abs/10.1145/3626221.3627289). *In Proceedings of the Recommender Systems Challenge (RecSysChallenge)* 2023. [[Bibtex](https://dblp.uni-trier.de/rec/conf/recsys/ShenSLX23.html?view=bibtex)]
+
 > Jieming Zhu, Jinyang Liu, Shuai Yang, Qi Zhang, Xiuqiang He. [Open Benchmarking for Click-Through Rate Prediction](https://arxiv.org/abs/2009.05794). *The 30th ACM International Conference on Information and Knowledge Management (CIKM)*, 2021. [[Bibtex](https://dblp.org/rec/conf/cikm/ZhuLYZH21.html?view=bibtex)]
 
 > Jieming Zhu, Quanyu Dai, Liangcai Su, Rong Ma, Jinyang Liu, Guohao Cai, Xi Xiao, Rui Zhang. [BARS: Towards Open Benchmarking for Recommender Systems](https://arxiv.org/abs/2205.09626). *The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)*, 2022. [[Bibtex](https://dblp.org/rec/conf/sigir/ZhuDSMLCXZ22.html?view=bibtex)]
